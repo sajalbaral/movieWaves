@@ -1,16 +1,34 @@
-# React + Vite
+# movieWaves
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie discovery web app built with React and Vite. Users can search for movies, browse popular titles, and view trending searches based on tracked search activity.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search for movies using the TMDB API
+- Browse popular movies when no search is entered
+- Debounced search input for fewer unnecessary API calls
+- Trending Movies section powered by tracked search data
+- Search analytics stored in Supabase
+- Responsive card-based UI with Tailwind CSS
+- Live deployment on Vercel
 
-## React Compiler
+## Live Demo: https://movie-waves.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built With
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- Tailwind CSS v4
+- TMDB API
+- Supabase
+- react-use
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I learned
+
+- Fetching and rendering external API data in a React app
+- Using debounced input to improve search performance
+- Managing async state for loading, errors, and results
+- Integrating Supabase into a frontend app for lightweight analytics
+- Structuring a React project with reusable components
+- Deploying a Vite app to Vercel
